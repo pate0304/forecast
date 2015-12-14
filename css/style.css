@@ -1,0 +1,22 @@
+h1{
+    font-family:Georgia, serif;
+}
+p{
+    font-family:Calibri, sans-serif;
+}
+.weather-forecast{
+    min-width: 500px;
+    max-width: 800px;
+
+}
+
+.weather-forecast table {
+    width:100%
+}
+
+.weather-forecast .current {
+    font-size: 4em;
+}
+
+.weather-forecast tr:nth-child(even) {background: #CCC}
+.weather-forecast tr:nth-child(odd) {background: #FFF}
